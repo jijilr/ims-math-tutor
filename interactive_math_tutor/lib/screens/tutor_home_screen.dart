@@ -221,7 +221,7 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
   }
 
   // "Let me solve" popup methods
-  void _openSolvePopup() => setState(() { showSolvePopup = true; popupSelectedOption = null; });
+  void _openSolvePopup() => setState(() { showSolvePopup = true; popupSelectedOption = null; popupAnswered = false; });
   void _closeSolvePopup() => setState(() => showSolvePopup = false);
   void _selectPopupOption(int i) { if (!popupAnswered) setState(() => popupSelectedOption = i); }
   void _checkPopupAnswer() {
@@ -491,14 +491,14 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
                   Color bgColor = const Color(0xFFF9FAFB);
                   Color borderColor = const Color(0xFFE5E7EB);
                   
-                  if (popupAnswered && isOptCorrect) {
-                    textColor = const Color(0xFF059669);
-                    bgColor = const Color(0xFF059669).withOpacity(0.1);
-                    borderColor = const Color(0xFF059669);
-                  } else if (popupAnswered && isSelected && !isOptCorrect) {
+                  if (popupAnswered && isSelected && !isOptCorrect) {
                     textColor = const Color(0xFFDC2626);
                     bgColor = const Color(0xFFDC2626).withOpacity(0.1);
                     borderColor = const Color(0xFFDC2626);
+                  } else if (popupAnswered && isSelected && isOptCorrect) {
+                    textColor = const Color(0xFF059669);
+                    bgColor = const Color(0xFF059669).withOpacity(0.1);
+                    borderColor = const Color(0xFF059669);
                   } else if (isSelected) {
                     textColor = const Color(0xFF7C3AED);
                     bgColor = const Color(0xFF7C3AED).withOpacity(0.1);
@@ -520,7 +520,7 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
                         children: [
                           Text("${String.fromCharCode(97 + i)}. ", style: TextStyle(fontWeight: FontWeight.w500, color: textColor)),
                           Expanded(child: LatexText(q.options[i], style: TextStyle(fontSize: 14, color: textColor))),
-                          if (popupAnswered && isOptCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 18),
+                          if (popupAnswered && isSelected && isOptCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 18),
                           if (popupAnswered && isSelected && !isOptCorrect) const Icon(Icons.cancel, color: Color(0xFFDC2626), size: 18),
                         ],
                       ),
@@ -984,8 +984,8 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
                 ]),
               ),
             
-            // Action buttons row
-            if (isCompleted && idx == currentSolutionStep)
+            // Action buttons row - don't show for correct quiz answers (they auto-advance)
+            if (isCompleted && idx == currentSolutionStep && (!step.isQuiz || !isCorrect))
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: Row(
