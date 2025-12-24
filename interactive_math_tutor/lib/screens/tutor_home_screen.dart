@@ -643,7 +643,7 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
     Color textColor = const Color(0xFF4B5563);
     Color bgColor = Colors.transparent;
 
-    if (showResult && isCorrect) {
+    if (showResult && isSelected && isCorrect) {
       textColor = const Color(0xFF059669); bgColor = const Color(0xFF059669).withOpacity(0.08);
     } else if (showResult && isSelected && !isCorrect) {
       textColor = const Color(0xFFDC2626); bgColor = const Color(0xFFDC2626).withOpacity(0.08);
@@ -660,7 +660,7 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
         child: Row(children: [
           Text("${labels[index]}. ", style: TextStyle(fontSize: 13, fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400, color: textColor)),
           Expanded(child: LatexText(currentQuestion!.options[index], style: TextStyle(fontSize: 13, fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400, color: textColor))),
-          if (showResult && isCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 16),
+          if (showResult && isSelected && isCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 16),
           if (showResult && isSelected && !isCorrect) const Icon(Icons.cancel, color: Color(0xFFDC2626), size: 16),
         ]),
       ),
@@ -951,7 +951,7 @@ class _TutorHomeScreenState extends State<TutorHomeScreen> {
                     Text(String.fromCharCode(65 + optIdx), style: TextStyle(fontWeight: FontWeight.w600, color: optText)),
                     const SizedBox(width: 10),
                     Expanded(child: LatexText(step.options![optIdx], style: TextStyle(fontSize: 14, color: optText))),
-                    if (isCompleted && isOptCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 18),
+                    if (isCompleted && isOptSelected && isOptCorrect) const Icon(Icons.check_circle, color: Color(0xFF059669), size: 18),
                     if (isCompleted && isOptSelected && !isOptCorrect) const Icon(Icons.cancel, color: Color(0xFFDC2626), size: 18),
                   ]),
                 ),
