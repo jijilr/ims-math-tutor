@@ -26,15 +26,17 @@ jobs:
           channel: 'stable'
       
       - name: Get dependencies
+        working-directory: interactive_math_tutor
         run: flutter pub get
       
       - name: Build web
+        working-directory: interactive_math_tutor
         run: flutter build web --release --base-href "/ims-math-tutor/"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/web
+          path: interactive_math_tutor/build/web
 
   deploy:
     environment:

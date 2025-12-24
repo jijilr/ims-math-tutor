@@ -1,0 +1,9 @@
+# Credentials and secrets
+credentials.json
+*.json.bak
+
+# Temp files
+temp_*.txt
+
+# Office documents (not needed in repo)
+*.docx
