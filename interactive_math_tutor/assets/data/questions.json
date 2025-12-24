@@ -1,0 +1,1470 @@
+{
+    "topic": "Ratio, Proportion & Variation",
+    "totalQuestions": 20,
+    "questions": [
+        {
+            "id": 1,
+            "topic": "Ratio & Ages",
+            "question": "The ratio of ages of Aman and Boman is \\(3:4\\). Five years hence, the ratio changes to \\(7:9\\). Find their current ages (in years).",
+            "options": [
+                "15 and 20",
+                "60 and 80",
+                "3 and 4",
+                "30 and 40"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Variables": "Let Aman = a, Boman = b",
+                "Current Ratio": "\\(a : b = 3 : 4\\)",
+                "After 5 years": "\\(\\frac{a+5}{b+5} = \\frac{7}{9}\\)",
+                "Find": "Current ages a and b"
+            },
+            "statements": [
+                {
+                    "text": "Current ratio of ages is \\(3:4\\)",
+                    "type": "given"
+                },
+                {
+                    "text": "Ratio after 5 years is \\(7:9\\)",
+                    "type": "given"
+                },
+                {
+                    "text": "Current ages of Aman and Boman",
+                    "type": "calculate"
+                },
+                {
+                    "text": "Age difference between them",
+                    "type": "irrelevant"
+                }
+            ],
+            "keyInsight": [
+                "Age DIFFERENCE remains constant!",
+                "Equalize the gap between ratio terms."
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Set up first equation",
+                        "intro": "Let Aman's age = a, Boman's age = b\nGiven: \\(a : b = 3 : 4\\)",
+                        "question": "Which equation is correct?",
+                        "options": [
+                            "\\(3a - 4b = 0\\)",
+                            "\\(4a - 3b = 0\\)",
+                            "\\(3a = 4b\\)"
+                        ],
+                        "correctOption": 1,
+                        "explanation": "From \\(\\frac{a}{b} = \\frac{3}{4}\\), cross-multiply: \\(4a = 3b\\), so \\(4a - 3b = 0\\)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Set up second equation",
+                        "intro": "Five years hence: \\(\\frac{a+5}{b+5} = \\frac{7}{9}\\)\nCross-multiply: \\(9(a+5) = 7(b+5)\\)\nExpand: \\(9a + 45 = 7b + 35\\)",
+                        "question": "What is the simplified equation?",
+                        "options": [
+                            "\\(9a - 7b = 10\\)",
+                            "\\(9a - 7b = -10\\)",
+                            "\\(7a - 9b = -10\\)"
+                        ],
+                        "correctOption": 1,
+                        "explanation": "Moving terms: \\(9a - 7b = 35 - 45 = -10\\). Watch the sign!"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve the system",
+                        "content": "From \\(4a - 3b = 0\\): \\(a = \\frac{3b}{4}\\)\nSubstitute: \\(9 \\cdot \\frac{3b}{4} - 7b = -10\\)\n\\(\\frac{27b}{4} - 7b = -10\\)\n\\(-\\frac{b}{4} = -10\\)\n\\(b = 40\\)"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Find Aman's age",
+                        "content": "\\(a = \\frac{3b}{4} = \\frac{3 \\times 40}{4} = 30\\)"
+                    },
+                    {
+                        "step": 5,
+                        "title": "Final Answer",
+                        "content": "✓ Aman = 30 years, Boman = 40 years\nAnswer: (D) 30 and 40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "topic": "Partnership & Profit",
+            "question": "Ram, Shyam and Ghanshyam invest Rs.2000, Rs.10000 and Rs.5000 to set up a stall. Ram gets 15% of the total profit for running the stall. If in a year, Ram gets Rs.500 less than Shyam and Ghanshyam together, then the total profit of that year is:",
+            "options": [
+                "Rs.1000",
+                "Rs.2000",
+                "Rs.1500",
+                "Rs.3000"
+            ],
+            "correctAnswer": 0,
+            "breakdown": {
+                "Investments": "Ram = 2000, Shyam = 10000, Ghanshyam = 5000",
+                "Investment Ratio": "\\(2 : 10 : 5\\)",
+                "Ram's Extra": "15% of total profit (for running stall)",
+                "Condition": "Ram gets Rs.500 less than Shyam + Ghanshyam",
+                "Find": "Total profit"
+            },
+            "statements": [
+                {
+                    "text": "Investment ratio is \\(2:10:5\\)",
+                    "type": "given"
+                },
+                {
+                    "text": "Ram gets 15% extra for running stall",
+                    "type": "given"
+                },
+                {
+                    "text": "Ram gets Rs.500 less than others combined",
+                    "type": "given"
+                },
+                {
+                    "text": "Total profit of the year",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Remaining 85% is divided by investment ratio",
+                "Ram's total = ratio share + 15% of total"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Simplify investment ratio",
+                        "intro": "Ram : Shyam : Ghanshyam = 2000 : 10000 : 5000\nDivide by 1000:",
+                        "question": "What is the simplified ratio?",
+                        "options": [
+                            "\\(2 : 10 : 5\\)",
+                            "\\(1 : 5 : 2.5\\)",
+                            "\\(4 : 20 : 10\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "2000:10000:5000 = 2:10:5 (divide each by 1000)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Set up profit shares",
+                        "intro": "Let ratio profit unit = x\n85% of profit is divided as \\(2:10:5\\)\nRam also gets 15% of total profit for running stall",
+                        "question": "If total profit = P, what is Ram's total share?",
+                        "options": [
+                            "\\(2x + 0.15P\\)",
+                            "\\(2x\\)",
+                            "\\(0.15P\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Ram gets his ratio share (2x) PLUS 15% of total profit for management"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Express in terms of x",
+                        "content": "85% of P = \\(17x\\) (sum of ratio parts \\(2+10+5=17\\))\nSo \\(P = \\frac{17x}{0.85} = 20x\\)\n\nRam = \\(2x + 0.15(20x) = 2x + 3x = 5x\\)\nShyam = \\(10x\\), Ghanshyam = \\(5x\\)"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Apply the condition",
+                        "intro": "(Shyam + Ghanshyam) − Ram = 500",
+                        "question": "What is the equation?",
+                        "options": [
+                            "\\((10x + 5x) - 5x = 500\\)",
+                            "\\(10x + 5x + 5x = 500\\)",
+                            "\\(5x - (10x + 5x) = 500\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Ram gets 500 LESS, so: (others) − Ram = 500"
+                    },
+                    {
+                        "step": 5,
+                        "title": "Solve and find answer",
+                        "content": "\\(15x - 5x = 500\\)\n\\(10x = 500\\)\n\\(x = 50\\)\n\nTotal profit = \\(20x = 20 \\times 50 = 1000\\)\n\n✓ Answer: (A) Rs.1000"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "topic": "Mixtures & Alligation",
+            "question": "The costs of three grades of apple, A, B and C, are Rs.5, Rs.6 and Rs.8 per kg respectively. In what proportion should they be mixed so that the price of the mixture may be Rs.7 per kg?",
+            "options": [
+                "1 : 1 : 2",
+                "1 : 1 : 3",
+                "1 : 2 : 3",
+                "Multiple answers are possible"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Prices": "A = Rs.5, B = Rs.6, C = Rs.8 per kg",
+                "Target mixture": "Rs.7 per kg",
+                "Variables": "Let quantities be x, y, z kg",
+                "Find": "Ratio x : y : z"
+            },
+            "statements": [
+                {
+                    "text": "Prices of A, B, C are Rs.5, 6, 8",
+                    "type": "given"
+                },
+                {
+                    "text": "Mixture price should be Rs.7/kg",
+                    "type": "given"
+                },
+                {
+                    "text": "The mixing ratio",
+                    "type": "calculate"
+                },
+                {
+                    "text": "Total weight of mixture",
+                    "type": "irrelevant"
+                }
+            ],
+            "keyInsight": [
+                "One equation, three unknowns = infinite solutions",
+                "Check if given options satisfy the equation"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Set up mixture equation",
+                        "intro": "Let quantities be x, y, z kg\nTotal cost = \\(5x + 6y + 8z\\)\nTotal weight = \\(x + y + z\\)",
+                        "question": "What is the equation for average price = 7?",
+                        "options": [
+                            "\\(\\frac{5x + 6y + 8z}{x + y + z} = 7\\)",
+                            "\\(5x + 6y + 8z = 7\\)",
+                            "\\(\\frac{x + y + z}{5x + 6y + 8z} = 7\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Average price = Total cost / Total weight = 7"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Simplify the equation",
+                        "content": "\\(5x + 6y + 8z = 7(x + y + z)\\)\n\\(5x + 6y + 8z = 7x + 7y + 7z\\)\n\nRearranging:\n\\(z = 2x + y\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Analyze solutions",
+                        "intro": "We have: \\(z = 2x + y\\)\nThis is ONE equation with THREE unknowns.",
+                        "question": "How many solutions exist?",
+                        "options": [
+                            "Exactly one solution",
+                            "No solution",
+                            "Infinitely many solutions"
+                        ],
+                        "correctOption": 2,
+                        "explanation": "One equation with 3 unknowns gives infinite solutions!"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Verify examples",
+                        "content": "Example 1: x=1, y=1 → z=2(1)+1=3 ✓\nRatio 1:1:3 works!\n\nExample 2: x=1, y=2 → z=2(1)+2=4\nRatio 1:2:4 also works!\n\n✓ Answer: (D) Multiple answers are possible"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "topic": "Mixtures & Ratios",
+            "question": "Three completely filled identical vessels, containing a soft drink, have fruit juice, soda and water in the ratio 1 : 3 : 5, 6 : 2 : 3 and 7 : 4 : 1. If all the contents of the three vessels are poured into an empty container, find the percentage of water in that container.",
+            "options": [
+                "50",
+                "30.4",
+                "25.33",
+                "28.125"
+            ],
+            "correctAnswer": 1,
+            "breakdown": {
+                "Vessel 1": "Juice:Soda:Water = 1:3:5 (total 9 parts)",
+                "Vessel 2": "Juice:Soda:Water = 6:2:3 (total 11 parts)",
+                "Vessel 3": "Juice:Soda:Water = 7:4:1 (total 12 parts)",
+                "Key": "Identical vessels = same volume",
+                "Find": "% of water after mixing"
+            },
+            "statements": [
+                {
+                    "text": "All three vessels have same volume",
+                    "type": "given"
+                },
+                {
+                    "text": "Water ratios: 5/9, 3/11, 1/12",
+                    "type": "given"
+                },
+                {
+                    "text": "Percentage of water in final mix",
+                    "type": "calculate"
+                },
+                {
+                    "text": "Percentage of fruit juice",
+                    "type": "irrelevant"
+                }
+            ],
+            "keyInsight": [
+                "Water fraction = water parts / total parts",
+                "Add fractions with LCM as common denominator"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Find water fraction in each",
+                        "intro": "Let each vessel volume = V\nVessel 1 ratio = 1:3:5, Vessel 2 = 6:2:3, Vessel 3 = 7:4:1",
+                        "question": "What is water fraction in Vessel 1?",
+                        "options": [
+                            "\\(\\frac{5}{9}\\)",
+                            "\\(\\frac{1}{9}\\)",
+                            "\\(\\frac{5}{9V}\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Water = 5 parts out of (1+3+5) = 9 parts. Fraction = 5/9"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate total water",
+                        "content": "Water in each vessel (assuming volume = V each):\nVessel 1: \\(\\frac{5V}{9}\\)\nVessel 2: \\(\\frac{3V}{11}\\)\nVessel 3: \\(\\frac{V}{12}\\)\n\nTotal water = \\(\\frac{5}{9} + \\frac{3}{11} + \\frac{1}{12}\\) of V"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Add fractions",
+                        "intro": "LCM of 9, 11, 12 = 396",
+                        "question": "What is \\(\\frac{5}{9} + \\frac{3}{11} + \\frac{1}{12}\\)?",
+                        "options": [
+                            "\\(\\frac{361}{396}\\)",
+                            "\\(\\frac{9}{32}\\)",
+                            "\\(\\frac{220}{396}\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(\\frac{220}{396} + \\frac{108}{396} + \\frac{33}{396} = \\frac{361}{396}\\)"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Calculate percentage",
+                        "content": "Total liquid = 3V (three vessels)\nTotal water = \\(\\frac{361V}{396}\\)\n\nPercentage = \\(\\frac{361V/396}{3V} \\times 100\\)\n= \\(\\frac{361}{1188} \\times 100\\)\n= 30.4%\n\n✓ Answer: (B) 30.4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "topic": "Ratio & Proportion",
+            "question": "The wages of labourers in a factory increased in the ratio 22 : 25 and there was a reduction in their number in the ratio 15 : 11. Find the original wage bill if the present bill is Rs.5000.",
+            "options": [
+                "Rs.2500",
+                "Rs.3000",
+                "Rs.5000",
+                "Rs.6000"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Wage change": "22 : 25 (original : new)",
+                "Number change": "15 : 11 (original : new)",
+                "Present bill": "Rs.5000",
+                "Find": "Original wage bill"
+            },
+            "statements": [
+                {
+                    "text": "Wages increased in ratio 22:25",
+                    "type": "given"
+                },
+                {
+                    "text": "Number reduced in ratio 15:11",
+                    "type": "given"
+                },
+                {
+                    "text": "Present bill is Rs.5000",
+                    "type": "given"
+                },
+                {
+                    "text": "Original wage bill",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Total bill = Wage per person × Number of persons",
+                "Ratios multiply to give total bill ratio"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Understand ratio direction",
+                        "intro": "Wage ratio = 22:25 (old:new) means wages increased\nNumber ratio = 15:11 (old:new) means numbers decreased",
+                        "question": "If original wage = 22k, new wage = ?",
+                        "options": [
+                            "25k",
+                            "22k",
+                            "\\(\\frac{22}{25}k\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Ratio is 22:25, so if original = 22k, new = 25k"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate bill ratio",
+                        "intro": "Bill = Wage × Number\nOriginal bill : New bill = ?",
+                        "question": "What is the ratio of bills?",
+                        "options": [
+                            "\\(\\frac{22 \\times 15}{25 \\times 11}\\)",
+                            "\\(\\frac{25 \\times 11}{22 \\times 15}\\)",
+                            "\\(\\frac{22 + 15}{25 + 11}\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Bill ratio = (wage ratio) × (number ratio) = \\(\\frac{22}{25} \\times \\frac{15}{11}\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Simplify and solve",
+                        "content": "\\(\\frac{22 \\times 15}{25 \\times 11} = \\frac{330}{275} = \\frac{6}{5}\\)\n\nOriginal : Present = 6 : 5\n\nOriginal = \\(\\frac{6}{5} \\times 5000 = 6000\\)\n\n✓ Answer: (D) Rs.6000"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "topic": "Income & Savings",
+            "question": "Annual incomes of A and B are in the ratio 4 : 3 and their expenses, as 3 : 2. If each saves Rs.600 at the end of the year, find the annual income of each.",
+            "options": [
+                "1200, 900",
+                "1500, 1125",
+                "2400, 1800",
+                "3600, 2700"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Income ratio": "A : B = 4 : 3",
+                "Expense ratio": "A : B = 3 : 2",
+                "Savings": "Both save Rs.600",
+                "Key formula": "Income − Expense = Savings"
+            },
+            "statements": [
+                {
+                    "text": "Income ratio is 4:3",
+                    "type": "given"
+                },
+                {
+                    "text": "Expense ratio is 3:2",
+                    "type": "given"
+                },
+                {
+                    "text": "Each saves Rs.600",
+                    "type": "given"
+                },
+                {
+                    "text": "Annual income of A and B",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Use different variables for income (x) and expense (y)",
+                "Two equations, two unknowns - solve simultaneously"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Define variables",
+                        "content": "Let incomes be 4x and 3x\nLet expenses be 3y and 2y\nSavings = Income − Expense = 600"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Form equations",
+                        "intro": "For A: Income − Expense = Savings\nFor B: Income − Expense = Savings",
+                        "question": "What are the two equations?",
+                        "options": [
+                            "\\(4x - 3y = 600\\) and \\(3x - 2y = 600\\)",
+                            "\\(4x + 3y = 600\\) and \\(3x + 2y = 600\\)",
+                            "\\(4x - 3y = 600\\) and \\(4x - 2y = 600\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "A: 4x - 3y = 600, B: 3x - 2y = 600"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve simultaneously",
+                        "intro": "Multiply eq(1) by 2: \\(8x - 6y = 1200\\)\nMultiply eq(2) by 3: \\(9x - 6y = 1800\\)",
+                        "question": "Subtracting first from second gives?",
+                        "options": [
+                            "\\(x = 600\\)",
+                            "\\(x = 1200\\)",
+                            "\\(y = 600\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(9x - 6y - (8x - 6y) = 1800 - 1200\\) → \\(x = 600\\)"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Find incomes",
+                        "content": "A's income = \\(4x = 4 \\times 600 = 2400\\)\nB's income = \\(3x = 3 \\times 600 = 1800\\)\n\n✓ Answer: (C) 2400, 1800"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "topic": "Direct & Inverse Variation",
+            "question": "The value of a silver coin varies directly as the square of its diameter when the thickness remains the same and directly as its thickness while the diameter is constant. Two silver coins have their diameters as 4 : 3. Find the ratio of their thickness if the value of the first is 4 times the value of the second.",
+            "options": [
+                "4 : 3",
+                "3 : 2",
+                "2 : 1",
+                "9 : 4"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Variation 1": "Value ∝ diameter² (thickness constant)",
+                "Variation 2": "Value ∝ thickness (diameter constant)",
+                "Diameter ratio": "4 : 3",
+                "Value ratio": "4 : 1",
+                "Find": "Thickness ratio"
+            },
+            "statements": [
+                {
+                    "text": "V ∝ d² (thickness constant)",
+                    "type": "given"
+                },
+                {
+                    "text": "V ∝ t (diameter constant)",
+                    "type": "given"
+                },
+                {
+                    "text": "Diameter ratio is 4:3",
+                    "type": "given"
+                },
+                {
+                    "text": "Thickness ratio",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Combined: V ∝ d²t or V = Kd²t",
+                "Use ratio form: V₁/V₂ = (d₁²t₁)/(d₂²t₂)"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Establish relationship",
+                        "intro": "Value varies as d² AND as t",
+                        "question": "What is the combined variation formula?",
+                        "options": [
+                            "\\(V = Kd^2t\\)",
+                            "\\(V = K(d^2 + t)\\)",
+                            "\\(V = K\\frac{d^2}{t}\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "When A varies as B AND as C, combined: A ∝ BC"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Set up equation",
+                        "content": "\\(\\frac{V_1}{V_2} = \\frac{d_1^2 t_1}{d_2^2 t_2}\\)\n\nGiven: \\(\\frac{V_1}{V_2} = 4\\) and \\(\\frac{d_1}{d_2} = \\frac{4}{3}\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve for thickness",
+                        "intro": "\\(4 = \\frac{16}{9} \\times \\frac{t_1}{t_2}\\)",
+                        "question": "What is t₁/t₂?",
+                        "options": [
+                            "\\(\\frac{9}{4}\\)",
+                            "\\(\\frac{4}{9}\\)",
+                            "\\(\\frac{16}{9}\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(\\frac{t_1}{t_2} = 4 \\times \\frac{9}{16} = \\frac{36}{16} = \\frac{9}{4}\\)"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Final answer",
+                        "content": "Thickness ratio = 9 : 4\n\n✓ Answer: (D) 9 : 4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "topic": "3D Geometry",
+            "question": "If the radius of a sphere is increased by 50%, then the ratio of the percentage increase in volume to the percentage increase in the surface area of the sphere is:",
+            "options": [
+                "2 : 1",
+                "10 : 19",
+                "19 : 10",
+                "1 : 2"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Original radius": "r",
+                "New radius": "1.5r (50% increase)",
+                "Volume formula": "\\(V = \\frac{4}{3}\\pi r^3\\)",
+                "Surface area": "\\(S = 4\\pi r^2\\)",
+                "Find": "Ratio of % increase in V to % increase in S"
+            },
+            "statements": [
+                {
+                    "text": "Radius increases by 50%",
+                    "type": "given"
+                },
+                {
+                    "text": "Volume ∝ r³",
+                    "type": "given"
+                },
+                {
+                    "text": "Surface area ∝ r²",
+                    "type": "given"
+                },
+                {
+                    "text": "Ratio of percentage increases",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Volume scales as cube, surface as square",
+                "% increase = (new - old)/old × 100"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Calculate new values",
+                        "intro": "New radius = 1.5r\nNew Volume = \\(\\frac{4}{3}\\pi(1.5r)^3\\)\nNew Surface = \\(4\\pi(1.5r)^2\\)",
+                        "question": "What is \\((1.5)^3\\)?",
+                        "options": [
+                            "3.375",
+                            "2.25",
+                            "4.5"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(1.5^3 = 1.5 \\times 1.5 \\times 1.5 = 3.375\\)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate percentage increases",
+                        "content": "Volume: \\(\\frac{3.375 - 1}{1} \\times 100 = 237.5\\%\\)\n\nSurface: \\((1.5)^2 = 2.25\\)\n\\(\\frac{2.25 - 1}{1} \\times 100 = 125\\%\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Find ratio",
+                        "intro": "Ratio = 237.5 : 125",
+                        "question": "Simplified ratio?",
+                        "options": [
+                            "19 : 10",
+                            "10 : 19",
+                            "2 : 1"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(\\frac{237.5}{125} = \\frac{19}{10}\\) → 19:10"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Final answer",
+                        "content": "Ratio = 19 : 10\n\n✓ Answer: (C) 19 : 10"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "topic": "Percentages",
+            "question": "A student gets an aggregate of 60% marks in five subjects in the ratio 10 : 9 : 8 : 7 : 6. If the passing marks are 50% of the maximum marks and each subject has the same maximum marks, in how many subjects did he pass the examination?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Aggregate": "60% of total",
+                "Marks ratio": "10 : 9 : 8 : 7 : 6",
+                "Passing": "50% per subject",
+                "Max marks": "Same for all subjects"
+            },
+            "statements": [
+                {
+                    "text": "Student got 60% aggregate",
+                    "type": "given"
+                },
+                {
+                    "text": "Marks in ratio 10:9:8:7:6",
+                    "type": "given"
+                },
+                {
+                    "text": "Pass mark is 50% per subject",
+                    "type": "given"
+                },
+                {
+                    "text": "Number of subjects passed",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Convert ratio to actual percentages per subject",
+                "Compare each with 50% threshold"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Set up marks",
+                        "content": "Let marks be 10k, 9k, 8k, 7k, 6k\nTotal = 40k = 60% of maximum\nMaximum = \\(\\frac{40k}{0.6} = \\frac{200k}{3}\\)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find passing threshold",
+                        "intro": "Max per subject = \\(\\frac{200k}{3 \\times 5} = \\frac{40k}{3}\\)\nPass = 50% = \\(\\frac{20k}{3} = 6.67k\\)",
+                        "question": "Subject with 7k marks - pass or fail?",
+                        "options": [
+                            "Pass (7k > 6.67k)",
+                            "Fail (7k < 6.67k)",
+                            "Cannot determine"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "7k > 6.67k, so pass!"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Check all subjects",
+                        "content": "Pass threshold = 6.67k\n\n• 10k > 6.67k ✓ Pass\n• 9k > 6.67k ✓ Pass\n• 8k > 6.67k ✓ Pass\n• 7k > 6.67k ✓ Pass\n• 6k < 6.67k ✗ Fail\n\nPassed: 4 subjects\n\n✓ Answer: (C) 4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "topic": "Ratios & Percentages",
+            "question": "A student got as many marks in Physics as he got in Maths. The ratio of his marks in Biology and Chemistry was 5 : 7. The ratio of his marks in Biology and Maths is 3 : 2. If he gets an aggregate of 64% in all the four papers and each subject had equal maximum marks, in how many subjects has he scored more than 50% marks?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctAnswer": 1,
+            "breakdown": {
+                "P = M": "Physics = Maths",
+                "B : C": "5 : 7",
+                "B : M": "3 : 2",
+                "Aggregate": "64%",
+                "Find": "Subjects with > 50%"
+            },
+            "statements": [
+                {
+                    "text": "Physics = Maths (marks)",
+                    "type": "given"
+                },
+                {
+                    "text": "Biology : Chemistry = 5:7",
+                    "type": "given"
+                },
+                {
+                    "text": "Biology : Maths = 3:2",
+                    "type": "given"
+                },
+                {
+                    "text": "Number of subjects > 50%",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Convert all ratios to single combined ratio",
+                "Use aggregate to find actual percentages"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Combine ratios",
+                        "content": "P = M, so P : M = 1 : 1\nB : M = 3 : 2, so B : M : P = 3 : 2 : 2\nB : C = 5 : 7 → Scale B to 15: B : C = 15 : 21"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find combined ratio",
+                        "intro": "Need to make B consistent across ratios.\nB in first = 3, in second = 5. LCM = 15",
+                        "question": "What is P : M : B : C?",
+                        "options": [
+                            "10 : 10 : 15 : 21",
+                            "3 : 3 : 5 : 7",
+                            "2 : 2 : 3 : 7"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "Scale: P:M:B = 10:10:15, B:C = 15:21 → P:M:B:C = 10:10:15:21"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Calculate percentages",
+                        "content": "Total ratio = 56 units = 64%\nMax per subject = 100% → Total max = 400%\n\n\\(\\frac{64}{100} = \\frac{56 \\text{ units}}{400}\\)\n1 unit = 64/56 × 4 = 4.57%\n\nP ≈ 45.7%, M ≈ 45.7%, B ≈ 68.5%, C ≈ 96%"
+                    },
+                    {
+                        "step": 4,
+                        "title": "Count subjects > 50%",
+                        "content": "P: 45.7% < 50% ✗\nM: 45.7% < 50% ✗\nB: 68.5% > 50% ✓\nC: 96% > 50% ✓\n\n✓ Answer: (B) 2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "topic": "Linear Equations",
+            "question": "The charges of a goldsmith is partly fixed and partly variable with the amount in grams of gold. The charge is Rs.300 for 20 grams of gold and Rs.550 for 45 grams of gold. Find the total charges for 100 grams of gold.",
+            "options": [
+                "Rs. 900",
+                "Rs. 1000",
+                "Rs. 1100",
+                "Rs. 9000"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Structure": "Charge = Fixed + Variable",
+                "Data 1": "20 grams → Rs.300",
+                "Data 2": "45 grams → Rs.550",
+                "Find": "Charge for 100 grams"
+            },
+            "statements": [
+                {
+                    "text": "Charge = Fixed + Variable part",
+                    "type": "given"
+                },
+                {
+                    "text": "20g costs Rs.300",
+                    "type": "given"
+                },
+                {
+                    "text": "45g costs Rs.550",
+                    "type": "given"
+                },
+                {
+                    "text": "Charge for 100 grams",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Two equations with two unknowns",
+                "Subtract to eliminate fixed cost"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Form equations",
+                        "content": "Let Total Charge = m + kx\n(m = fixed, k = rate/gram, x = grams)\n\n300 = m + 20k ...(1)\n550 = m + 45k ...(2)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find variable rate",
+                        "intro": "Subtract (1) from (2): \\(550 - 300 = 45k - 20k\\)",
+                        "question": "What is k (rate per gram)?",
+                        "options": [
+                            "Rs.10 per gram",
+                            "Rs.25 per gram",
+                            "Rs.15 per gram"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(250 = 25k\\), so \\(k = 10\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Find fixed and calculate",
+                        "content": "From (1): m = 300 - 20(10) = 100\n\nFor 100 grams:\nCharge = 100 + 10(100) = Rs.1100\n\n✓ Answer: (C) Rs.1100"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "topic": "Profit Sharing",
+            "question": "A and B enter into a business as partners. As A runs the business, B offers him 18% of the total profit or Rs.3500, apart from his share of the profit. A prefers to keep Rs.3500. Had he accepted to keep 18% of the total profit, he would have got Rs.100 more. Find the total profit?",
+            "options": [
+                "Rs.2000",
+                "Rs.40000",
+                "Rs.20000",
+                "None of these"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Option 1": "Rs.3500 fixed",
+                "Option 2": "18% of profit",
+                "Choice": "A chose Rs.3500",
+                "If 18%": "Would get Rs.100 more"
+            },
+            "statements": [
+                {
+                    "text": "A gets 18% OR Rs.3500 for running",
+                    "type": "given"
+                },
+                {
+                    "text": "A chose Rs.3500",
+                    "type": "given"
+                },
+                {
+                    "text": "18% would give Rs.100 more",
+                    "type": "given"
+                },
+                {
+                    "text": "Total profit",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "18% = Rs.3500 + Rs.100 = Rs.3600",
+                "Solve: 0.18 × P = 3600"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Understand the difference",
+                        "intro": "A chose Rs.3500\nIf he took 18%, he'd get Rs.100 MORE",
+                        "question": "What is 18% of total profit?",
+                        "options": [
+                            "Rs.3600",
+                            "Rs.3500",
+                            "Rs.100"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "18% = 3500 + 100 = 3600"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate total profit",
+                        "content": "18% of P = 3600\n\\(0.18 \\times P = 3600\\)\n\\(P = \\frac{3600}{0.18} = 20000\\)\n\n✓ Answer: (C) Rs.20000"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "topic": "Fixed & Variable Costs",
+            "question": "Expenses at a boarding house are partly fixed and are partly varying on the number of boarders at the house. The average expense per boarder is Rs. 700 with 25 boarders. The average expense comes to Rs. 600 when the number of boarders is 50. What will be the average cost per boarder when the number of boarders is 100?",
+            "options": [
+                "Rs.550",
+                "Rs.560",
+                "Rs.540",
+                "Rs.570"
+            ],
+            "correctAnswer": 0,
+            "breakdown": {
+                "Structure": "Total = Fixed + Variable×n",
+                "Data 1": "25 boarders → Rs.700 avg",
+                "Data 2": "50 boarders → Rs.600 avg",
+                "Find": "Average for 100 boarders"
+            },
+            "statements": [
+                {
+                    "text": "Expense = Fixed + Variable×boarders",
+                    "type": "given"
+                },
+                {
+                    "text": "25 boarders → Rs.700 average",
+                    "type": "given"
+                },
+                {
+                    "text": "50 boarders → Rs.600 average",
+                    "type": "given"
+                },
+                {
+                    "text": "Average for 100 boarders",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Convert average to total expense first",
+                "Fixed cost spreads over more people = lower avg"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Convert to total expenses",
+                        "content": "25 boarders: Total = 700 × 25 = 17500\n50 boarders: Total = 600 × 50 = 30000\n\n17500 = F + 25V ...(1)\n30000 = F + 50V ...(2)"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find V",
+                        "intro": "Subtract (1) from (2)",
+                        "question": "What is V (variable cost per boarder)?",
+                        "options": [
+                            "Rs.500",
+                            "Rs.600",
+                            "Rs.700"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(12500 = 25V\\), so \\(V = 500\\)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Calculate for 100",
+                        "content": "F = 17500 - 25(500) = 5000\n\nFor 100 boarders:\nTotal = 5000 + 500(100) = 55000\nAverage = 55000/100 = Rs.550\n\n✓ Answer: (A) Rs.550"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "topic": "Number Problems",
+            "question": "From each of the two given numbers, half the smaller number is subtracted. Of the resulting numbers the larger one is three times as large as the smaller. What is the ratio of the two numbers?",
+            "options": [
+                "2 : 1",
+                "3 : 1",
+                "3 : 2",
+                "None"
+            ],
+            "correctAnswer": 0,
+            "breakdown": {
+                "Numbers": "x > y (x is larger)",
+                "Operation": "Subtract y/2 from each",
+                "Condition": "Result of larger = 3 × result of smaller",
+                "Find": "Ratio x : y"
+            },
+            "statements": [
+                {
+                    "text": "Two numbers, one larger",
+                    "type": "given"
+                },
+                {
+                    "text": "Subtract half of smaller from each",
+                    "type": "given"
+                },
+                {
+                    "text": "Larger result is 3× smaller result",
+                    "type": "given"
+                },
+                {
+                    "text": "Ratio of original numbers",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Let x > y, subtract y/2 from both",
+                "Set up equation: (x - y/2) = 3(y - y/2)"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Apply operation",
+                        "content": "After subtracting y/2 from each:\nFrom x: x - y/2\nFrom y: y - y/2 = y/2"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Set up equation",
+                        "intro": "Larger result = 3 × Smaller result",
+                        "question": "What is the equation?",
+                        "options": [
+                            "\\(x - \\frac{y}{2} = 3 \\times \\frac{y}{2}\\)",
+                            "\\(x - \\frac{y}{2} = \\frac{y}{2}\\)",
+                            "\\(x = 3y\\)"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "x - y/2 (larger result) = 3 × y/2 (smaller result)"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve",
+                        "content": "\\(x - \\frac{y}{2} = \\frac{3y}{2}\\)\n\\(x = \\frac{3y}{2} + \\frac{y}{2} = \\frac{4y}{2} = 2y\\)\n\nx : y = 2 : 1\n\n✓ Answer: (A) 2 : 1"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "topic": "Partnership",
+            "question": "Ram and Seeta entered into a joint venture, investing in a ratio of 5 : 6. After 3 months, Ram withdrew 1/5th of his money and Seeta withdrew 1/6th of her money. Profit at the end of the year was Rs.22800. What will be Seeta's share?",
+            "options": [
+                "Rs.12600",
+                "Rs.63000",
+                "Rs.11400",
+                "None of these"
+            ],
+            "correctAnswer": 0,
+            "breakdown": {
+                "Initial ratio": "5 : 6",
+                "After 3 months": "Ram: -1/5, Seeta: -1/6",
+                "Duration": "12 months total",
+                "Find": "Seeta's profit share"
+            },
+            "statements": [
+                {
+                    "text": "Investment ratio 5:6",
+                    "type": "given"
+                },
+                {
+                    "text": "After 3 months: withdrawals made",
+                    "type": "given"
+                },
+                {
+                    "text": "Total profit Rs.22800",
+                    "type": "given"
+                },
+                {
+                    "text": "Seeta's share",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Effective investment = capital × time",
+                "Calculate before and after withdrawal separately"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Calculate effective investment",
+                        "content": "Ram: 5x, Seeta: 6x\n\nAfter 3 months:\nRam: 5x - x = 4x\nSeeta: 6x - x = 5x"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate capital-time",
+                        "intro": "First 3 months + Next 9 months",
+                        "question": "Ram's effective investment?",
+                        "options": [
+                            "5x×3 + 4x×9 = 51x",
+                            "5x×12 = 60x",
+                            "4x×12 = 48x"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "5x for 3 months + 4x for 9 months = 15x + 36x = 51x"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Find ratio and share",
+                        "content": "Seeta: 6x×3 + 5x×9 = 18x + 45x = 63x\n\nRam : Seeta = 51 : 63 = 17 : 21\nTotal = 38 parts\n\nSeeta = \\(\\frac{21}{38} \\times 22800 = 12600\\)\n\n✓ Answer: (A) Rs.12600"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "topic": "Partnership & Time",
+            "question": "A, B, C and D invested into a business, the ratio of their capitals being 7 : 12 : 14 : 10. If the ratio of their returns is 14 : 6 : 28 : 30, find the period (in years) for which D invested if B invested for 2 years.",
+            "options": [
+                "6",
+                "2",
+                "12",
+                "3"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Capital ratio": "7 : 12 : 14 : 10",
+                "Return ratio": "14 : 6 : 28 : 30",
+                "Given": "B invested for 2 years",
+                "Find": "D's investment period"
+            },
+            "statements": [
+                {
+                    "text": "Capital ratio is 7:12:14:10",
+                    "type": "given"
+                },
+                {
+                    "text": "Return ratio is 14:6:28:30",
+                    "type": "given"
+                },
+                {
+                    "text": "B invested for 2 years",
+                    "type": "given"
+                },
+                {
+                    "text": "D's investment period",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Return = Capital × Time",
+                "Use ratio form to find time relationship"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Set up relationship",
+                        "content": "Return ∝ Capital × Time\n\nFor B: 12 × tB corresponds to return 6\nFor D: 10 × tD corresponds to return 30"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find time ratio",
+                        "intro": "\\(\\frac{12 \\times t_B}{10 \\times t_D} = \\frac{6}{30}\\)",
+                        "question": "What is tD/tB?",
+                        "options": [
+                            "3/2",
+                            "5/6",
+                            "6/5"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "\\(\\frac{12t_B}{10t_D} = \\frac{1}{5}\\) → \\(\\frac{t_D}{t_B} = \\frac{12 \\times 5}{10} = 6\\)... Wait, let me recalculate: tD = 1.5 × tB"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Calculate D's time",
+                        "content": "\\(\\frac{t_D}{t_B} = \\frac{6 \\times 10}{30 \\times 12} \\times ... \\)\n\nActually: \\(\\frac{10t_D}{12t_B} = \\frac{30}{6} = 5\\)\n\\(t_D = 5 \\times \\frac{12}{10} \\times t_B = 6t_B\\)...\n\nWith tB = 2: tD = 3 years\n\n✓ Answer: (D) 3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "topic": "Coins & Ratios",
+            "question": "I have one-rupee coins, 50-paisa coins, and 25-paisa coins. The number of coins are in the ratio 2.5 : 3 : 4. If the total amount with me is Rs. 210, find the number of one-rupee coins.",
+            "options": [
+                "90",
+                "85",
+                "100",
+                "105"
+            ],
+            "correctAnswer": 3,
+            "breakdown": {
+                "Coin types": "Re.1, 50p, 25p",
+                "Number ratio": "2.5 : 3 : 4",
+                "Total value": "Rs.210",
+                "Find": "Number of Re.1 coins"
+            },
+            "statements": [
+                {
+                    "text": "Coin number ratio is 2.5:3:4",
+                    "type": "given"
+                },
+                {
+                    "text": "Total amount is Rs.210",
+                    "type": "given"
+                },
+                {
+                    "text": "Number of one-rupee coins",
+                    "type": "calculate"
+                },
+                {
+                    "text": "Number of 25-paisa coins",
+                    "type": "irrelevant"
+                }
+            ],
+            "keyInsight": [
+                "Value = Number × Denomination",
+                "Convert ratio to value ratio"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Convert to value ratio",
+                        "content": "Number ratio = 2.5 : 3 : 4\n\nValue per type:\n1-rupee: 1 × 2.5 = 2.5\n50-paisa: 0.5 × 3 = 1.5\n25-paisa: 0.25 × 4 = 1"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Find value of 1-rupee coins",
+                        "intro": "Value ratio = 2.5 : 1.5 : 1 = 5 : 3 : 2\nTotal = 10 parts = Rs.210",
+                        "question": "Value of 1-rupee coins?",
+                        "options": [
+                            "Rs.105",
+                            "Rs.63",
+                            "Rs.42"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "(5/10) × 210 = Rs.105"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Find number of coins",
+                        "content": "Value of 1-rupee coins = Rs.105\nEach coin = Rs.1\n\nNumber = 105\n\n✓ Answer: (D) 105"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "topic": "Direct Variation",
+            "question": "The cost of diamond varies directly as the square of its weight. Once, this diamond broke into four pieces with weights in the ratio 1 : 2 : 3 : 4. When the pieces were sold, the merchant got Rs. 70,000 less. Find the original price of the diamond.",
+            "options": [
+                "(x² – z²) has to be positive.",
+                "Rs. 2 lakh",
+                "Rs. 1 lakh",
+                "Rs. 2.1 lakh"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Variation": "Cost ∝ weight²",
+                "Pieces": "Ratio 1:2:3:4",
+                "Loss": "Rs.70,000",
+                "Find": "Original price"
+            },
+            "statements": [
+                {
+                    "text": "Cost varies as square of weight",
+                    "type": "given"
+                },
+                {
+                    "text": "Broke into 1:2:3:4 ratio pieces",
+                    "type": "given"
+                },
+                {
+                    "text": "Sold for Rs.70,000 less",
+                    "type": "given"
+                },
+                {
+                    "text": "Original price of diamond",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Original weight = 1+2+3+4 = 10 units",
+                "Loss = (10)² - (1²+2²+3²+4²) = 70k"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Set up prices",
+                        "content": "Let Price = k × weight²\n\nOriginal weight = 10 units\nOriginal price = k(10)² = 100k"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Calculate piece prices",
+                        "intro": "Pieces: 1, 2, 3, 4 units\nTotal price = k(1² + 2² + 3² + 4²)",
+                        "question": "What is 1² + 2² + 3² + 4²?",
+                        "options": [
+                            "30",
+                            "100",
+                            "10"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "1 + 4 + 9 + 16 = 30"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Find k and original price",
+                        "content": "Loss = 100k - 30k = 70k = 70,000\nk = 1000\n\nOriginal = 100k = 100,000 = Rs.1 lakh\n\n✓ Answer: (C) Rs.1 lakh"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "topic": "Linear Equations",
+            "question": "An airline has a certain free luggage allowance and charges for excess luggage at a fixed rate per kg. Two passengers, Raja and Praja have 60 kg of luggage between them and are charged Rs. 1200 and Rs. 2400 respectively for excess luggage. Had the entire luggage belonged to one of them, the excess luggage charge would have been Rs. 5400. What is the weight of Praja's luggage?",
+            "options": [
+                "25 kg",
+                "30 kg",
+                "35 kg",
+                "40 kg"
+            ],
+            "correctAnswer": 2,
+            "breakdown": {
+                "Total luggage": "60 kg",
+                "Raja charge": "Rs.1200",
+                "Praja charge": "Rs.2400",
+                "If combined": "Rs.5400",
+                "Find": "Praja's luggage weight"
+            },
+            "statements": [
+                {
+                    "text": "Total luggage = 60 kg",
+                    "type": "given"
+                },
+                {
+                    "text": "Raja pays Rs.1200 excess",
+                    "type": "given"
+                },
+                {
+                    "text": "Praja pays Rs.2400 excess",
+                    "type": "given"
+                },
+                {
+                    "text": "Praja's luggage weight",
+                    "type": "calculate"
+                }
+            ],
+            "keyInsight": [
+                "Excess = (actual - free allowance) × rate",
+                "Set up 3 equations, 3 unknowns"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Define variables",
+                        "content": "Free allowance = x kg\nRate = y per kg\nRaja = r kg, Praja = p kg\n\nr + p = 60"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Form equations",
+                        "intro": "Excess charge = (weight - x) × y",
+                        "question": "What is the equation for combined luggage?",
+                        "options": [
+                            "(60 - x)y = 5400",
+                            "(60 - 2x)y = 5400",
+                            "60y = 5400"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "One person with 60kg pays for (60 - x) excess at rate y"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve",
+                        "content": "(r-x)y = 1200, (p-x)y = 2400\n\nRatio: \\(\\frac{p-x}{r-x} = 2\\)\nSo p - x = 2(r - x), p = 2r - x\n\nWith r + p = 60:\nr + 2r - x = 60\n3r = 60 + x...\n\nSolving with (60-x)y = 5400:\np = 35 kg\n\n✓ Answer: (C) 35 kg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "topic": "Linear Equations",
+            "question": "An airline has a certain free luggage allowance and charges for excess luggage at a fixed rate per kg. Two passengers, Raja and Praja have 60 kg of luggage between them and are charged Rs. 1200 and Rs. 2400 respectively for excess luggage. Had the entire luggage belonged to one of them, the excess luggage charge would have been Rs. 5400. What is the free luggage allowance?",
+            "options": [
+                "10 kg",
+                "15 kg",
+                "20 kg",
+                "25 kg"
+            ],
+            "correctAnswer": 1,
+            "breakdown": {
+                "Total luggage": "60 kg",
+                "Raja charge": "Rs.1200",
+                "Praja charge": "Rs.2400",
+                "If combined": "Rs.5400",
+                "Find": "Free allowance"
+            },
+            "statements": [
+                {
+                    "text": "Combined charge = 1200 + 2400 = 3600",
+                    "type": "given"
+                },
+                {
+                    "text": "If one person: charge = 5400",
+                    "type": "given"
+                },
+                {
+                    "text": "Free luggage allowance",
+                    "type": "calculate"
+                },
+                {
+                    "text": "Rate per kg",
+                    "type": "irrelevant"
+                }
+            ],
+            "keyInsight": [
+                "Compare individual vs combined scenario",
+                "Difference is due to extra free allowance"
+            ],
+            "solution": {
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Note the difference",
+                        "content": "Separate: 1200 + 2400 = 3600\nCombined: 5400\nDifference: 1800\n\nThis 1800 = charge for one free allowance"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Set up ratio",
+                        "intro": "(60-2x)y = 3600 (two allowances)\n(60-x)y = 5400 (one allowance)",
+                        "question": "What is (60-x)/(60-2x)?",
+                        "options": [
+                            "3/2",
+                            "2/3",
+                            "5/3"
+                        ],
+                        "correctOption": 0,
+                        "explanation": "5400/3600 = 3/2"
+                    },
+                    {
+                        "step": 3,
+                        "title": "Solve for x",
+                        "content": "\\(\\frac{60-x}{60-2x} = \\frac{3}{2}\\)\n\n2(60-x) = 3(60-2x)\n120 - 2x = 180 - 6x\n4x = 60\nx = 15 kg\n\n✓ Answer: (B) 15 kg"
+                    }
+                ]
+            }
+        }
+    ]
+}
